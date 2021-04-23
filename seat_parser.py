@@ -3,7 +3,8 @@ import xml.etree.ElementTree as ET
 xmlfiles = ['seatmap1.xml', 'seatmap2.xml']
 ns = {
         'ns1': 'http://www.iata.org/IATA/EDIST/2017.2',
-        'ns2': 'http://www.iata.org/IATA/EDIST/2017.2/CR129'
+        'ns2': 'http://schemas.xmlsoap.org/soap/envelope/',
+        'ns3': 'http://www.opentravel.org/OTA/2003/05/common/'
      }
 
 # parse the XML seatmap files seatmap1.xml and seatmap2.xml into a standardized JSON format that outputs the seatmap (by row)
@@ -46,6 +47,14 @@ def main():
                 col_num = seat.text
                 seat_ids.append(row_num + col_num)
             print(seat_ids)
+
+def seatmap1():
+    tree = ET.parse(xmlfiles[0])
+    root = tree.getroot()
+
+    for cabin_class in root.findall('./ns2:Body/ns3:OTA_AirSeatMapRS/', ns):
+        print(cabin_class.tag)
       
 if __name__ == "__main__":
-    main()
+    # main()
+    seatmap1()
