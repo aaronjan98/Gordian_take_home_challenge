@@ -18,6 +18,15 @@ def main():
         'E': None,
         'F': None
     }
+    # SeatDefinitionID map to values
+    service_definition = {}
+
+    service_def_list = root.find('./ns1:DataLists', ns)
+    # for service_def in service_def_list.findall('./ns1:SeatDefinitionList/SeatDefinition', ns):
+    for service_def in service_def_list.findall('./ns1:SeatDefinitionList/', ns):
+        service_definition[service_def.attrib['SeatDefinitionID']] = service_def.find('./ns1:Description/', ns).text
+    print(service_definition)
+
     # cabin wraps every row
     for cabin in root.findall('./ns1:SeatMap/ns1:Cabin', ns):
         pos_a = pos_b = pos_c = pos_d = pos_e = pos_f = None
