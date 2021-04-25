@@ -8,7 +8,7 @@ ns = {
      }
 
 # parse the XML seatmap files seatmap1.xml and seatmap2.xml into a standardized JSON format that outputs the seatmap (by row)
-def main():
+def seatmap2():
     tree = ET.parse(xmlfiles[1])
     root = tree.getroot()
     seat_position = {
@@ -40,21 +40,45 @@ def main():
                 seat_position[col_pos.attrib['Position']] = col_pos.text
         for row in cabin.findall('./ns1:Row', ns):
             # aggregate the seat IDs in each row
-            seat_ids = []
             row_num = row.find('./ns1:Number', ns).text
             # numeral prefix for seat ID
-            for seat in row.findall('./ns1:Seat/ns1:Column', ns):
-                col_num = seat.text
-                seat_ids.append(row_num + col_num)
-            print(seat_ids)
+            for seat in row.findall('./ns1:Seat', ns):
+                # seat_ids = []
+                for col in seat.findall('./ns1:Column', ns):
+                    col_num = col.text
+                    # seat_ids.append(row_num + col_num)
+                    print(row_num + col_num)
+                    for seat_def in seat.findall('./ns1:SeatDefinitionRef', ns):
+                        print('seat definition: ', service_definition[seat_def.text])
+                # print(seat_ids)
 
 def seatmap1():
     tree = ET.parse(xmlfiles[0])
     root = tree.getroot()
 
-    for cabin_class in root.findall('./ns2:Body/ns3:OTA_AirSeatMapRS/', ns):
-        print(cabin_class.tag)
+    for cabin in root.findall('./ns2:Body/ns3:OTA_AirSeatMapRS/ns3:SeatMapResponses/ns3:SeatMapResponse/ns3:SeatMapDetails/ns3:CabinClass/ns3:RowInfo[@CabinType]', ns):
+        cabin_class = cabin.attrib['CabinType']
+        print('cabin class: ', cabin_class)
+        # seat_info = cabin.find('./ns3:SeatInfo', ns)
+        for seat_info in cabin.findall('./ns3:SeatInfo', ns):
+            availability = seat_info.find('./ns3:Summary', ns)
+            print('available: ', availability.attrib['AvailableInd'])
+            print('seat #: ', availability.attrib['SeatNumber'])
+            price = seat_info.find('./ns3:Service', ns)
+            if price == None:
+                price = 'N/A'
+                print('price: ', price)
+            else:
+                price = price.find('./ns3:Fee', ns)
+                print('price: ', price.attrib['Amount'])
+
+            for feature in seat_info.findall('./ns3:Features', ns):
+                if feature.text == 'Other_':
+                    print('features: ', feature.attrib['extension'])
+                else:
+                    print('features: ', feature.text)
+
       
 if __name__ == "__main__":
-    # main()
-    seatmap1()
+    seatmap2()
+    # seatmap1()
