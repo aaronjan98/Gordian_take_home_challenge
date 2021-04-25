@@ -1,4 +1,6 @@
 import xml.etree.ElementTree as ET
+import sys
+import json
 
 xmlfiles = ['seatmap1.xml', 'seatmap2.xml']
 ns = {
@@ -9,7 +11,37 @@ ns = {
 
 seatmap = {}
 
-# parse the XML seatmap files seatmap1.xml and seatmap2.xml into a standardized JSON format that outputs the seatmap (by row)
+def seatmap1():
+    tree = ET.parse(xmlfiles[0])
+    root = tree.getroot()
+
+    for cabin in root.findall('./ns2:Body/ns3:OTA_AirSeatMapRS/ns3:SeatMapResponses/ns3:SeatMapResponse/ns3:SeatMapDetails/ns3:CabinClass/ns3:RowInfo[@CabinType]', ns):
+        row_num = cabin.attrib['RowNumber']
+        seatmap[row_num] = {}
+        cabin_class = cabin.attrib['CabinType']
+        for seat_info in cabin.findall('./ns3:SeatInfo', ns):
+            summary = seat_info.find('./ns3:Summary', ns)
+            seat_num = summary.attrib['SeatNumber']
+            availability = summary.attrib['AvailableInd']
+            seatmap[row_num].update({ seat_num: {
+                'available': availability,
+                'cabin class': cabin_class
+            }})
+            price = seat_info.find('./ns3:Service', ns)
+            if price == None:
+                price = 'N/A'
+            else:
+                price = '$'+price.find('./ns3:Fee', ns).attrib['Amount']
+            seatmap[row_num][seat_num]['price'] = price
+
+            for feature in seat_info.findall('./ns3:Features', ns):
+                if feature.text != 'Other_':
+                    position = feature.text
+                    seatmap[row_num][seat_num]['position'] = position
+                elif feature.text == 'Other_':
+                    extension = feature.attrib['extension']
+                    seatmap[row_num][seat_num]['extension'] = extension
+
 def seatmap2():
     tree = ET.parse(xmlfiles[1])
     root = tree.getroot()
@@ -43,38 +75,29 @@ def seatmap2():
                         except:
                             seatmap[row_num][seat_num]['seat_type'] = seat_definition
 
-def seatmap1():
-    tree = ET.parse(xmlfiles[0])
-    root = tree.getroot()
+def output_to_file():
+    # check if the file exists already
+    try:
+        sys.argv[1]
+    except:
+        print('The name of the output file was not provided')
+    if file_exists():
+        # create new file and write the seatmap hash table into it
+        print(f'successfully parsed XML seatmap files into {sys.argv[1]}.json')
+        f = open(f'{sys.argv[1]}.json', 'w')
+        json_output = json.dumps(seatmap, indent=4)
+        f.write(json_output)
+        f.close
 
-    for cabin in root.findall('./ns2:Body/ns3:OTA_AirSeatMapRS/ns3:SeatMapResponses/ns3:SeatMapResponse/ns3:SeatMapDetails/ns3:CabinClass/ns3:RowInfo[@CabinType]', ns):
-        row_num = cabin.attrib['RowNumber']
-        seatmap[row_num] = {}
-        cabin_class = cabin.attrib['CabinType']
-        for seat_info in cabin.findall('./ns3:SeatInfo', ns):
-            summary = seat_info.find('./ns3:Summary', ns)
-            seat_num = summary.attrib['SeatNumber']
-            availability = summary.attrib['AvailableInd']
-            seatmap[row_num].update({ seat_num: {
-                'available': availability,
-                'cabin class': cabin_class
-            }})
-            price = seat_info.find('./ns3:Service', ns)
-            if price == None:
-                price = 'N/A'
-            else:
-                price = '$'+price.find('./ns3:Fee', ns).attrib['Amount']
-            seatmap[row_num][seat_num]['price'] = price
+def file_exists():
+    try:
+        open(f'{sys.argv[1]}.json', 'x')
+        return True
+    except IOError:
+        print('File exists already')
+        return False
 
-            for feature in seat_info.findall('./ns3:Features', ns):
-                if feature.text != 'Other_':
-                    position = feature.text
-                    seatmap[row_num][seat_num]['position'] = position
-                elif feature.text == 'Other_':
-                    extension = feature.attrib['extension']
-                    seatmap[row_num][seat_num]['extension'] = extension
-
-      
 if __name__ == "__main__":
     seatmap1()
     seatmap2()
+    output_to_file()

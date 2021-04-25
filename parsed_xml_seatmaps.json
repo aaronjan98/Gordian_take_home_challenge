@@ -1,0 +1,1319 @@
+{
+    "1": {
+        "1A": {
+            "available": "false",
+            "cabin class": "First",
+            "price": "N/A",
+            "position": "Window"
+        },
+        "1B": {
+            "available": "false",
+            "cabin class": "First",
+            "price": "N/A",
+            "position": "Aisle"
+        },
+        "1E": {
+            "available": "false",
+            "cabin class": "First",
+            "price": "N/A",
+            "position": "Aisle"
+        },
+        "1F": {
+            "available": "false",
+            "cabin class": "First",
+            "price": "N/A",
+            "position": "Window"
+        }
+    },
+    "2": {
+        "2A": {
+            "available": "false",
+            "cabin class": "First",
+            "price": "N/A",
+            "position": "Window"
+        },
+        "2B": {
+            "available": "false",
+            "cabin class": "First",
+            "price": "N/A",
+            "position": "Aisle"
+        },
+        "2E": {
+            "available": "false",
+            "cabin class": "First",
+            "price": "N/A",
+            "position": "Aisle"
+        },
+        "2F": {
+            "available": "false",
+            "cabin class": "First",
+            "price": "N/A",
+            "position": "Window"
+        }
+    },
+    "7": {
+        "7A": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "extension": "Lavatory",
+            "seat_type": "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT, SEAT_IN_A_QUIET_ZONE"
+        },
+        "7B": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "extension": "Lavatory",
+            "seat_type": "SEAT_IN_A_QUIET_ZONE"
+        },
+        "7C": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "extension": "Lavatory",
+            "seat_type": "SEAT_IN_A_QUIET_ZONE, SEAT_NOT_SUITABLE_FOR_CHILD"
+        },
+        "7D": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Aisle",
+            "seat_type": "SEAT_IN_A_QUIET_ZONE, SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT"
+        },
+        "7E": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Center",
+            "seat_type": "SEAT_IN_A_QUIET_ZONE, SEAT_NOT_ALLOWED_FOR_INFANT"
+        },
+        "7F": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Window",
+            "seat_type": "SEAT_IN_A_QUIET_ZONE, SEAT_NOT_ALLOWED_FOR_INFANT"
+        }
+    },
+    "8": {
+        "8A": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "extension": "Limited Recline",
+            "position": "Window",
+            "seat_type": "SEAT_IN_A_QUIET_ZONE, SEAT_NOT_ALLOWED_FOR_INFANT"
+        },
+        "8B": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "extension": "Limited Recline",
+            "position": "Center",
+            "seat_type": "SEAT_IN_A_QUIET_ZONE, SEAT_NOT_ALLOWED_FOR_INFANT"
+        },
+        "8C": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "extension": "Limited Recline",
+            "position": "Aisle",
+            "seat_type": "SEAT_IN_A_QUIET_ZONE, SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT"
+        },
+        "8D": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Aisle",
+            "seat_type": "SEAT_IN_A_QUIET_ZONE, SEAT_NOT_SUITABLE_FOR_CHILD"
+        },
+        "8E": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Center",
+            "seat_type": "SEAT_IN_A_QUIET_ZONE"
+        },
+        "8F": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Window",
+            "seat_type": "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT, SEAT_IN_A_QUIET_ZONE"
+        }
+    },
+    "9": {
+        "9A": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Window",
+            "seat_type": "SEAT_IN_A_QUIET_ZONE, SEAT_NOT_ALLOWED_FOR_INFANT, SEAT_WITH_FACILITIES_FOR_HANDICAPPED, SEAT_WITH_FACILITIES_FOR_HANDICAPPED_INCAPACITATED_PASSENGER"
+        },
+        "9B": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Center",
+            "seat_type": "SEAT_IN_A_QUIET_ZONE, SEAT_NOT_ALLOWED_FOR_INFANT"
+        },
+        "9C": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Aisle",
+            "seat_type": "SEAT_IN_A_QUIET_ZONE, SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT"
+        },
+        "9D": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Aisle",
+            "seat_type": "SEAT_IN_A_QUIET_ZONE, SEAT_NOT_SUITABLE_FOR_CHILD"
+        },
+        "9E": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Center",
+            "seat_type": "SEAT_IN_A_QUIET_ZONE"
+        },
+        "9F": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Window",
+            "seat_type": "SEAT_IN_A_QUIET_ZONE, SEAT_WITH_FACILITIES_FOR_HANDICAPPED, SEAT_WITH_FACILITIES_FOR_HANDICAPPED_INCAPACITATED_PASSENGER"
+        }
+    },
+    "10": {
+        "10A": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Window",
+            "seat_type": "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT, SEAT_IN_A_QUIET_ZONE, WING"
+        },
+        "10B": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Center",
+            "seat_type": "SEAT_IN_A_QUIET_ZONE, WING"
+        },
+        "10C": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Aisle",
+            "seat_type": "SEAT_IN_A_QUIET_ZONE, SEAT_NOT_SUITABLE_FOR_CHILD, WING"
+        },
+        "10D": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Aisle",
+            "seat_type": "SEAT_IN_A_QUIET_ZONE, SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT, WING"
+        },
+        "10E": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Center",
+            "seat_type": "SEAT_IN_A_QUIET_ZONE, SEAT_NOT_ALLOWED_FOR_INFANT, WING"
+        },
+        "10F": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Window",
+            "seat_type": "SEAT_IN_A_QUIET_ZONE, SEAT_NOT_ALLOWED_FOR_INFANT, WING"
+        }
+    },
+    "11": {
+        "11A": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Window",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, RESTRICTED_RECLINE_SEAT, SEAT_TO_BE_LEFT_VACANT_OR_OFFERED_LAST, RESTRICTED_SEAT_GENERAL, RESTRICTED, WING"
+        },
+        "11B": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Center",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, RESTRICTED_RECLINE_SEAT, SEAT_TO_BE_LEFT_VACANT_OR_OFFERED_LAST, RESTRICTED_SEAT_GENERAL, RESTRICTED, WING"
+        },
+        "11C": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Aisle",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, RESTRICTED_RECLINE_SEAT, SEAT_TO_BE_LEFT_VACANT_OR_OFFERED_LAST, RESTRICTED_SEAT_GENERAL, RESTRICTED, WING"
+        },
+        "11D": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Aisle",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT, RESTRICTED_RECLINE_SEAT, SEAT_TO_BE_LEFT_VACANT_OR_OFFERED_LAST, RESTRICTED_SEAT_GENERAL, RESTRICTED, WING"
+        },
+        "11E": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Center",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT, RESTRICTED_RECLINE_SEAT, SEAT_TO_BE_LEFT_VACANT_OR_OFFERED_LAST, RESTRICTED_SEAT_GENERAL, RESTRICTED, WING"
+        },
+        "11F": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Window",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT, RESTRICTED_RECLINE_SEAT, SEAT_TO_BE_LEFT_VACANT_OR_OFFERED_LAST, RESTRICTED_SEAT_GENERAL, RESTRICTED, WING"
+        }
+    },
+    "12": {
+        "12A": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "extension": "Chargeable",
+            "position": "Window",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT, RESTRICTED_RECLINE_SEAT, WING, SEAT_NOT_ALLOWED_FOR_MEDICAL, EXIT, LEG_SPACE_SEAT"
+        },
+        "12B": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "extension": "Chargeable",
+            "position": "Center",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT, RESTRICTED_RECLINE_SEAT, WING, SEAT_NOT_ALLOWED_FOR_MEDICAL, EXIT, LEG_SPACE_SEAT"
+        },
+        "12C": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$4200",
+            "extension": "Chargeable",
+            "position": "Aisle",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT, RESTRICTED_RECLINE_SEAT, WING, SEAT_NOT_ALLOWED_FOR_MEDICAL, EXIT, LEG_SPACE_SEAT"
+        },
+        "12D": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$4200",
+            "extension": "Chargeable",
+            "position": "Aisle",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT, RESTRICTED_RECLINE_SEAT, WING, SEAT_NOT_ALLOWED_FOR_MEDICAL, EXIT, LEG_SPACE_SEAT"
+        },
+        "12E": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "extension": "Chargeable",
+            "position": "Center",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT, RESTRICTED_RECLINE_SEAT, WING, SEAT_NOT_ALLOWED_FOR_MEDICAL, EXIT, LEG_SPACE_SEAT"
+        },
+        "12F": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "extension": "Chargeable",
+            "position": "Window",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT, RESTRICTED_RECLINE_SEAT, WING, SEAT_NOT_ALLOWED_FOR_MEDICAL, EXIT, LEG_SPACE_SEAT"
+        }
+    },
+    "14": {
+        "14A": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$2700",
+            "extension": "Chargeable",
+            "position": "Window",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT, WING"
+        },
+        "14B": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$2600",
+            "extension": "Chargeable",
+            "position": "Center",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT, WING, PREFERENTIAL_SEAT"
+        },
+        "14C": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$4200",
+            "extension": "Chargeable",
+            "position": "Aisle",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT, WING"
+        },
+        "14D": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$4200",
+            "extension": "Chargeable",
+            "position": "Aisle",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, WING"
+        },
+        "14E": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$2600",
+            "extension": "Chargeable",
+            "position": "Center",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, WING, PREFERENTIAL_SEAT"
+        },
+        "14F": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$2700",
+            "extension": "Chargeable",
+            "position": "Window",
+            "seat_type": "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT, SEAT_NOT_SUITABLE_FOR_CHILD, WING"
+        }
+    },
+    "15": {
+        "15A": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$2700",
+            "extension": "Chargeable",
+            "position": "Window",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT, WING"
+        },
+        "15B": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$2600",
+            "extension": "Chargeable",
+            "position": "Center",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT, WING, PREFERENTIAL_SEAT"
+        },
+        "15C": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$4200",
+            "extension": "Chargeable",
+            "position": "Aisle",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT, WING"
+        },
+        "15D": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$4200",
+            "extension": "Chargeable",
+            "position": "Aisle",
+            "seat_type": "WING"
+        },
+        "15E": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$2600",
+            "extension": "Chargeable",
+            "position": "Center",
+            "seat_type": "WING, PREFERENTIAL_SEAT"
+        },
+        "15F": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$2700",
+            "extension": "Chargeable",
+            "position": "Window",
+            "seat_type": "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT, WING"
+        }
+    },
+    "20": {
+        "20A": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "extension": "Limited Recline",
+            "position": "Window",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT"
+        },
+        "20B": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "extension": "Limited Recline",
+            "position": "Center",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT, PREFERENTIAL_SEAT"
+        },
+        "20C": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "extension": "Limited Recline",
+            "position": "Aisle",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT"
+        },
+        "20D": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "extension": "Limited Recline",
+            "position": "Aisle",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD"
+        },
+        "20E": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "extension": "Limited Recline",
+            "position": "Center",
+            "seat_type": "PREFERENTIAL_SEAT"
+        },
+        "20F": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "extension": "Limited Recline",
+            "position": "Window",
+            "seat_type": "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT"
+        }
+    },
+    "21": {
+        "21A": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Window",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT, OCCUPIED"
+        },
+        "21B": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Center",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT, PREFERENTIAL_SEAT, OCCUPIED"
+        },
+        "21C": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Aisle",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT"
+        },
+        "21D": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Aisle",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD"
+        },
+        "21E": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Center",
+            "seat_type": "PREFERENTIAL_SEAT"
+        },
+        "21F": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Window",
+            "seat_type": "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT"
+        }
+    },
+    "22": {
+        "22A": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$2700",
+            "extension": "Chargeable",
+            "position": "Window",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT"
+        },
+        "22B": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT, PREFERENTIAL_SEAT"
+        },
+        "22C": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$4200",
+            "extension": "Chargeable",
+            "position": "Aisle",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT"
+        },
+        "22D": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$4200",
+            "extension": "Chargeable",
+            "position": "Aisle",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD"
+        },
+        "22E": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable",
+            "seat_type": "PREFERENTIAL_SEAT"
+        },
+        "22F": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$2700",
+            "extension": "Chargeable",
+            "position": "Window",
+            "seat_type": "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT"
+        }
+    },
+    "23": {
+        "23A": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$2700",
+            "extension": "Chargeable",
+            "position": "Window",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT"
+        },
+        "23B": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Center",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT, PREFERENTIAL_SEAT"
+        },
+        "23C": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "extension": "Chargeable",
+            "position": "Aisle",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT"
+        },
+        "23D": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$4200",
+            "extension": "Chargeable",
+            "position": "Aisle",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD"
+        },
+        "23E": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable",
+            "seat_type": "PREFERENTIAL_SEAT"
+        },
+        "23F": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$2700",
+            "extension": "Chargeable",
+            "position": "Window",
+            "seat_type": "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT"
+        }
+    },
+    "24": {
+        "24A": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$2700",
+            "extension": "Chargeable",
+            "position": "Window",
+            "seat_type": "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT"
+        },
+        "24B": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable",
+            "seat_type": "PREFERENTIAL_SEAT"
+        },
+        "24C": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$4200",
+            "extension": "Chargeable",
+            "position": "Aisle",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD"
+        },
+        "24D": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$4200",
+            "extension": "Chargeable",
+            "position": "Aisle",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT"
+        },
+        "24E": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT, PREFERENTIAL_SEAT"
+        },
+        "24F": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$2700",
+            "extension": "Chargeable",
+            "position": "Window",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT"
+        }
+    },
+    "25": {
+        "25A": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$2700",
+            "extension": "Chargeable",
+            "position": "Window",
+            "seat_type": "SEAT_WITH_FACILITIES_FOR_HANDICAPPED, SEAT_WITH_FACILITIES_FOR_HANDICAPPED_INCAPACITATED_PASSENGER"
+        },
+        "25B": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Center",
+            "extension": "Chargeable",
+            "seat_type": "PREFERENTIAL_SEAT"
+        },
+        "25C": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Aisle",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD"
+        },
+        "25D": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$4200",
+            "extension": "Chargeable",
+            "position": "Aisle",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT"
+        },
+        "25E": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT, PREFERENTIAL_SEAT"
+        },
+        "25F": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$2700",
+            "extension": "Chargeable",
+            "position": "Window",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT, SEAT_WITH_FACILITIES_FOR_HANDICAPPED, SEAT_WITH_FACILITIES_FOR_HANDICAPPED_INCAPACITATED_PASSENGER"
+        }
+    },
+    "26": {
+        "26A": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$2700",
+            "extension": "Chargeable",
+            "position": "Window",
+            "seat_type": "RESTRICTED_SEAT_GENERAL, RESTRICTED, SEAT_SUITABLE_FOR_UNACCOMPANIED_MINORS"
+        },
+        "26B": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable",
+            "seat_type": "RESTRICTED_SEAT_GENERAL, RESTRICTED, PREFERENTIAL_SEAT, SEAT_SUITABLE_FOR_UNACCOMPANIED_MINORS"
+        },
+        "26C": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$4200",
+            "extension": "Chargeable",
+            "position": "Aisle",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, RESTRICTED_SEAT_GENERAL, RESTRICTED, SEAT_SUITABLE_FOR_UNACCOMPANIED_MINORS"
+        },
+        "26D": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$4200",
+            "extension": "Chargeable",
+            "position": "Aisle",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT, RESTRICTED_SEAT_GENERAL, RESTRICTED, SEAT_SUITABLE_FOR_UNACCOMPANIED_MINORS"
+        },
+        "26E": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT, RESTRICTED_SEAT_GENERAL, RESTRICTED, PREFERENTIAL_SEAT, SEAT_SUITABLE_FOR_UNACCOMPANIED_MINORS"
+        },
+        "26F": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$2700",
+            "extension": "Chargeable",
+            "position": "Window",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT, RESTRICTED_SEAT_GENERAL, RESTRICTED, SEAT_SUITABLE_FOR_UNACCOMPANIED_MINORS"
+        }
+    },
+    "27": {
+        "27A": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT, REAR_FACING_SEAT"
+        },
+        "27B": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Center",
+            "extension": "Chargeable",
+            "seat_type": "REAR_FACING_SEAT"
+        },
+        "27C": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Aisle",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, REAR_FACING_SEAT"
+        },
+        "27D": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1800",
+            "position": "Aisle",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT, REAR_FACING_SEAT"
+        },
+        "27E": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT, REAR_FACING_SEAT"
+        },
+        "27F": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT, REAR_FACING_SEAT"
+        }
+    },
+    "28": {
+        "28A": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT, REAR_FACING_SEAT"
+        },
+        "28B": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT, REAR_FACING_SEAT"
+        },
+        "28C": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1800",
+            "position": "Aisle",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT, REAR_FACING_SEAT"
+        },
+        "28D": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Aisle",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, REAR_FACING_SEAT"
+        },
+        "28E": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable",
+            "seat_type": "REAR_FACING_SEAT"
+        },
+        "28F": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT, REAR_FACING_SEAT"
+        }
+    },
+    "29": {
+        "29A": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT, REAR_FACING_SEAT"
+        },
+        "29B": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT, REAR_FACING_SEAT"
+        },
+        "29C": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1800",
+            "position": "Aisle",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT, REAR_FACING_SEAT"
+        },
+        "29D": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1800",
+            "position": "Aisle",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, REAR_FACING_SEAT"
+        },
+        "29E": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable",
+            "seat_type": "REAR_FACING_SEAT"
+        },
+        "29F": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_SUITABLE_FOR_ADULT_WITH_AN_INFANT, REAR_FACING_SEAT"
+        }
+    },
+    "30": {
+        "30A": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT, RESTRICTED_RECLINE_SEAT, SEAT_TO_BE_LEFT_VACANT_OR_OFFERED_LAST, RESTRICTED_SEAT_GENERAL, RESTRICTED, REAR_FACING_SEAT"
+        },
+        "30B": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_ALLOWED_FOR_INFANT, RESTRICTED_RECLINE_SEAT, SEAT_TO_BE_LEFT_VACANT_OR_OFFERED_LAST, RESTRICTED_SEAT_GENERAL, RESTRICTED, REAR_FACING_SEAT"
+        },
+        "30C": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1800",
+            "position": "Aisle",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, SEAT_NOT_ALLOWED_FOR_INFANT, RESTRICTED_RECLINE_SEAT, SEAT_TO_BE_LEFT_VACANT_OR_OFFERED_LAST, RESTRICTED_SEAT_GENERAL, RESTRICTED, REAR_FACING_SEAT"
+        },
+        "30D": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1800",
+            "position": "Aisle",
+            "extension": "Chargeable",
+            "seat_type": "SEAT_NOT_SUITABLE_FOR_CHILD, RESTRICTED_RECLINE_SEAT, OCCUPIED, REAR_FACING_SEAT, CREW_SEAT"
+        },
+        "30E": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable",
+            "seat_type": "RESTRICTED_RECLINE_SEAT, OCCUPIED, REAR_FACING_SEAT, CREW_SEAT"
+        },
+        "30F": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable",
+            "seat_type": "RESTRICTED_RECLINE_SEAT, OCCUPIED, REAR_FACING_SEAT, CREW_SEAT"
+        }
+    },
+    "31": {
+        "31A": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable"
+        },
+        "31B": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable"
+        },
+        "31C": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1800",
+            "position": "Aisle",
+            "extension": "Chargeable"
+        },
+        "31D": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1800",
+            "position": "Aisle",
+            "extension": "Chargeable"
+        },
+        "31E": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable"
+        },
+        "31F": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable"
+        }
+    },
+    "32": {
+        "32A": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable"
+        },
+        "32B": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable"
+        },
+        "32C": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1800",
+            "position": "Aisle",
+            "extension": "Chargeable"
+        },
+        "32D": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1800",
+            "position": "Aisle",
+            "extension": "Chargeable"
+        },
+        "32E": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable"
+        },
+        "32F": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable"
+        }
+    },
+    "34": {
+        "34A": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable"
+        },
+        "34B": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable"
+        },
+        "34C": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1800",
+            "position": "Aisle",
+            "extension": "Chargeable"
+        },
+        "34D": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1800",
+            "position": "Aisle",
+            "extension": "Chargeable"
+        },
+        "34E": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable"
+        },
+        "34F": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable"
+        }
+    },
+    "35": {
+        "35A": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable"
+        },
+        "35B": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable"
+        },
+        "35C": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1800",
+            "position": "Aisle",
+            "extension": "Chargeable"
+        },
+        "35D": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1800",
+            "position": "Aisle",
+            "extension": "Chargeable"
+        },
+        "35E": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable"
+        },
+        "35F": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable"
+        }
+    },
+    "36": {
+        "36A": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable"
+        },
+        "36B": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable"
+        },
+        "36C": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1800",
+            "position": "Aisle",
+            "extension": "Chargeable"
+        },
+        "36D": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1800",
+            "position": "Aisle",
+            "extension": "Chargeable"
+        },
+        "36E": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable"
+        },
+        "36F": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable"
+        }
+    },
+    "37": {
+        "37A": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable"
+        },
+        "37B": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable"
+        },
+        "37C": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1800",
+            "position": "Aisle",
+            "extension": "Chargeable"
+        },
+        "37D": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1800",
+            "position": "Aisle",
+            "extension": "Chargeable"
+        },
+        "37E": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable"
+        },
+        "37F": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable"
+        }
+    },
+    "38": {
+        "38A": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable"
+        },
+        "38B": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable"
+        },
+        "38C": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1800",
+            "position": "Aisle",
+            "extension": "Chargeable"
+        },
+        "38D": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1800",
+            "position": "Aisle",
+            "extension": "Chargeable"
+        },
+        "38E": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable"
+        },
+        "38F": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1300",
+            "position": "Window",
+            "extension": "Chargeable"
+        }
+    },
+    "39": {
+        "39A": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Window",
+            "extension": "Chargeable"
+        },
+        "39B": {
+            "available": "true",
+            "cabin class": "Economy",
+            "price": "$1200",
+            "position": "Center",
+            "extension": "Chargeable"
+        },
+        "39C": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Aisle"
+        },
+        "39D": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Aisle"
+        },
+        "39E": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Center"
+        },
+        "39F": {
+            "available": "false",
+            "cabin class": "Economy",
+            "price": "N/A",
+            "position": "Window"
+        }
+    }
+}
