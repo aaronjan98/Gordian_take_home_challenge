@@ -55,30 +55,40 @@ def seatmap2():
 def seatmap1():
     tree = ET.parse(xmlfiles[0])
     root = tree.getroot()
+    
+    seatmap = {}
 
     for cabin in root.findall('./ns2:Body/ns3:OTA_AirSeatMapRS/ns3:SeatMapResponses/ns3:SeatMapResponse/ns3:SeatMapDetails/ns3:CabinClass/ns3:RowInfo[@CabinType]', ns):
+        seatmap[cabin.attrib['RowNumber']] = {}
+        row_num = cabin.attrib['RowNumber']
         cabin_class = cabin.attrib['CabinType']
         print('cabin class: ', cabin_class)
-        # seat_info = cabin.find('./ns3:SeatInfo', ns)
         for seat_info in cabin.findall('./ns3:SeatInfo', ns):
-            availability = seat_info.find('./ns3:Summary', ns)
-            print('available: ', availability.attrib['AvailableInd'])
-            print('seat #: ', availability.attrib['SeatNumber'])
+            summary = seat_info.find('./ns3:Summary', ns)
+            seat_num = summary.attrib['SeatNumber']
+            availability = summary.attrib['AvailableInd']
+            seatmap[row_num].update({ seat_num: {
+                'available': availability,
+                'cabin class': cabin_class
+            }})
             price = seat_info.find('./ns3:Service', ns)
             if price == None:
                 price = 'N/A'
                 print('price: ', price)
             else:
-                price = price.find('./ns3:Fee', ns)
-                print('price: ', price.attrib['Amount'])
+                price = price.find('./ns3:Fee', ns).attrib['Amount']
+            seatmap[row_num][seat_num]['price'] = price
 
             for feature in seat_info.findall('./ns3:Features', ns):
                 if feature.text == 'Other_':
-                    print('features: ', feature.attrib['extension'])
+                    extension = feature.attrib['extension']
+                    seatmap[row_num][seat_num]['extension'] = extension
                 else:
-                    print('features: ', feature.text)
+                    feature = feature.text
+                    seatmap[row_num][seat_num]['feature'] = feature
+    print(seatmap)
 
       
 if __name__ == "__main__":
-    seatmap2()
-    # seatmap1()
+    # seatmap2()
+    seatmap1()
